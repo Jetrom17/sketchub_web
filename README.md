@@ -4,9 +4,9 @@
 ![](https://i.imgur.com/XxuZ1hb.png)
 You can build with the following command if you have it installed on your machine:
 ```bash
-pip install pyinstaller
 git clone https://github.com/Jetrom17/sketchub_web/
 cd sketchub_web
+pip install -r requirements.txt
 pyinstaller -i logo-sketchub.ico -F sketchub.py
 ```
 ## Linux:
